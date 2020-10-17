@@ -1,4 +1,3 @@
-# demo1
-demo project
+# DevOps Demo Application
 
-local
+Demo Application 
