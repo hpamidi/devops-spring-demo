@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage("checkout") {
             steps {
-                checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '9c0d03eb-47b0-4f7b-aa24-40dcd93d7c6e', url: 'https://github.com/satyacicd/fisapi-demo.git']]])
+                checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '9c0d03eb-47b0-4f7b-aa24-40dcd93d7c6e', url: 'https://github.com/hpamidi/devops-spring-demo']]])
             }
         }
         stage('Build') {

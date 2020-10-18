@@ -4,7 +4,7 @@
 
 	<groupId>com.fis.devops</groupId>
 	<artifactId>demo</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<name>devops-demo</name>
