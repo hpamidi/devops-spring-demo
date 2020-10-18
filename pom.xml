@@ -29,12 +29,12 @@
 		<repository>
 			<id>central</id>
 			<name>libs-release</name>
-			<url>http://10.7.157.204:8081/artifactory/libs-release-demo</url>
+			<url>http://10.7.158.33:8081/artifactory/libs-release-demo</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshot</id>
 			<name>libs-snapshot</name>
-			<url>http://10.7.157.204:8081/artifactory/libs-snapshot-demo</url>
+			<url>http://10.7.158.33:8081/artifactory/libs-snapshot-demo</url>
 		</snapshotRepository>
 	</distributionManagement>
 
