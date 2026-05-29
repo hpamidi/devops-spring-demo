@@ -1,0 +1,28 @@
+{
+  "name": "performance_degradation",
+  "category": "performance_degradation",
+  "version": "1.0",
+  "subject": "[{{severity}}] Service Performance Degradation - {{affected_service}} - {{incident_id}}",
+  "sections": {
+    "header": "SERVICE PERFORMANCE DEGRADATION NOTICE",
+    "body": "Dear Customer,\n\nWe want to inform you that we are currently experiencing performance degradation affecting {{affected_service}}.\n\n**Incident Reference:** {{incident_id}}\n**Severity:** {{severity}}\n**Start Time:** {{start_time}}\n**Current Status:** {{current_status}}\n\n**Affected Service(s):**\n{{affected_service}}\n\n**Observed Symptoms:**\n{{symptoms}}\n\n**Performance Metrics:**\n- Response Time: {{response_time_impact}}\n- Error Rate: {{error_rate}}\n- Throughput: {{throughput_impact}}\n\n**Root Cause:**\n{{root_cause}}\n\n**Mitigation Steps in Progress:**\n{{mitigation_steps}}\n\n**Customer Impact:**\n{{customer_impact}}\n\n**Workaround (if available):**\n{{workaround}}\n\n**Estimated Restoration Time:**\n{{eta}}\n\n**Next Update:**\n{{next_update_time}}\n\nWe appreciate your patience as we work to restore normal service levels.\n\nBest regards,\n{{sender_team}}\nService Reliability Engineering"
+  },
+  "placeholders": [
+    "severity",
+    "affected_service",
+    "incident_id",
+    "start_time",
+    "current_status",
+    "symptoms",
+    "response_time_impact",
+    "error_rate",
+    "throughput_impact",
+    "root_cause",
+    "mitigation_steps",
+    "customer_impact",
+    "workaround",
+    "eta",
+    "next_update_time",
+    "sender_team"
+  ]
+}

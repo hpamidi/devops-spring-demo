@@ -1,0 +1,23 @@
+{
+  "name": "default",
+  "category": "other",
+  "version": "1.0",
+  "subject": "[{{severity}}] Service Incident Notice - {{incident_id}}",
+  "sections": {
+    "header": "SERVICE INCIDENT NOTIFICATION",
+    "body": "Dear Customer,\n\nWe are writing to inform you of a service incident that may be affecting your experience.\n\n**Incident Reference:** {{incident_id}}\n**Title:** {{incident_title}}\n**Severity:** {{severity}}\n**Detected:** {{detection_time}}\n**Current Status:** {{current_status}}\n\n**Description:**\n{{incident_description}}\n\n**Impact:**\n{{impact_summary}}\n\n**Actions Taken:**\n{{actions_taken}}\n\n**Estimated Resolution Time:**\n{{eta}}\n\n**Next Update:**\n{{next_update_time}}\n\nWe apologize for any inconvenience caused and appreciate your patience.\n\nSincerely,\n{{sender_team}}\nOperations Team"
+  },
+  "placeholders": [
+    "severity",
+    "incident_id",
+    "incident_title",
+    "detection_time",
+    "current_status",
+    "incident_description",
+    "impact_summary",
+    "actions_taken",
+    "eta",
+    "next_update_time",
+    "sender_team"
+  ]
+}
