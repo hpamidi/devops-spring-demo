@@ -164,9 +164,9 @@ Return a JSON object with these fields:
                 TOKEN_USAGE.labels(type="completion").inc(usage.get("output_tokens", 0))
 
             raw = response.content.strip()
-            # Strip markdown code fences if present
+            # Strip markdown code fences if present (handles ```json\n and ```\njson\n)
             if raw.startswith("```"):
-                raw = raw.split("```")[1]
+                raw = raw.split("```")[1].lstrip()
                 if raw.startswith("json"):
                     raw = raw[4:]
             bulletin_data = json.loads(raw.strip())

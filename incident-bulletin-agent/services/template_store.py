@@ -39,7 +39,8 @@ class TemplateStore:
         path = self._dir / filename
         if not path.exists():
             logger.warning("Template file missing, using default", extra={"path": str(path)})
-            path = self._dir / "default.json"
+            filename = "default.json"
+            path = self._dir / filename
 
         with path.open() as fh:
             template = json.load(fh)
