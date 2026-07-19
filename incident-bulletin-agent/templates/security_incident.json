@@ -1,0 +1,26 @@
+{
+  "name": "security_incident",
+  "category": "security_incident",
+  "version": "1.0",
+  "subject": "[{{severity}}] Security Incident Notice - {{incident_id}}",
+  "sections": {
+    "header": "SECURITY INCIDENT NOTIFICATION",
+    "body": "Dear Customer,\n\nWe are contacting you regarding a security incident that may affect your account or services.\n\n**Incident Reference:** {{incident_id}}\n**Severity:** {{severity}}\n**Detected:** {{detection_time}}\n**Current Status:** {{current_status}}\n\n**Incident Description:**\n{{incident_description}}\n\n**Potential Impact:**\n{{potential_impact}}\n\n**Data Involved:**\n{{data_involved}}\n\n**Immediate Actions Taken:**\n{{immediate_actions}}\n\n**Recommended Customer Actions:**\n{{customer_actions}}\n\n**Containment Status:**\n{{containment_status}}\n\n**Investigation Timeline:**\nWe will complete our investigation and provide a full report by {{investigation_eta}}.\n\n**Next Update:**\n{{next_update_time}}\n\nIf you have any concerns or notice suspicious activity, please contact our Security Response Team immediately at {{security_contact}}.\n\nThank you for your understanding and cooperation.\n\nSincerely,\n{{sender_team}}\nInformation Security Team"
+  },
+  "placeholders": [
+    "severity",
+    "incident_id",
+    "detection_time",
+    "current_status",
+    "incident_description",
+    "potential_impact",
+    "data_involved",
+    "immediate_actions",
+    "customer_actions",
+    "containment_status",
+    "investigation_eta",
+    "next_update_time",
+    "security_contact",
+    "sender_team"
+  ]
+}

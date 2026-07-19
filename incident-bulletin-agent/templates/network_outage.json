@@ -1,0 +1,24 @@
+{
+  "name": "network_outage",
+  "category": "network_outage",
+  "version": "1.0",
+  "subject": "[{{severity}}] Network Outage - {{affected_region}} - {{incident_id}}",
+  "sections": {
+    "header": "NETWORK OUTAGE NOTIFICATION",
+    "body": "Dear Valued Customer,\n\nWe are writing to inform you of a network outage affecting {{affected_region}}.\n\n**Incident Reference:** {{incident_id}}\n**Severity:** {{severity}}\n**Detection Time:** {{detection_time}}\n**Current Status:** {{current_status}}\n\n**Impact Summary:**\n{{impact_summary}}\n\n**Affected Services:**\n{{affected_services}}\n\n**Root Cause (Preliminary):**\n{{root_cause}}\n\n**Actions Taken:**\n{{actions_taken}}\n\n**Estimated Resolution Time:**\n{{eta}}\n\n**Next Update:**\nWe will provide the next status update by {{next_update_time}} or sooner if the situation changes significantly.\n\nWe sincerely apologize for the disruption. Our engineering teams are working urgently to restore full service.\n\nRegards,\n{{sender_team}}\nNetwork Operations Center"
+  },
+  "placeholders": [
+    "severity",
+    "affected_region",
+    "incident_id",
+    "detection_time",
+    "current_status",
+    "impact_summary",
+    "affected_services",
+    "root_cause",
+    "actions_taken",
+    "eta",
+    "next_update_time",
+    "sender_team"
+  ]
+}
